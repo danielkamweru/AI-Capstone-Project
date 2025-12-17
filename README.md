@@ -4,12 +4,14 @@ A simple command-line application written in Rust that greets users by name.
 
 ## Description
 
-The Greeting CLI is a minimalistic tool that takes a user's name as a command-line argument and prints a friendly greeting message. It's built using Rust for performance and safety, making it a great example of a basic CLI application.
+The Greeting CLI is a minimalistic tool that takes a user's name as a command-line argument and prints a friendly greeting message, followed by a welcome note and a thank you message. It's built using Rust for performance and safety, making it a great example of a basic CLI application. This project was created with the assistance of AI.
 
 ## Features
 
 - Accepts a name as a command-line argument
 - Prints a personalized greeting with an emoji
+- Displays a welcome message about the application
+- Includes a thank you note
 - Simple and lightweight with no external dependencies
 
 ## Requirements
@@ -21,17 +23,17 @@ The Greeting CLI is a minimalistic tool that takes a user's name as a command-li
 1. Ensure you have Rust installed on your system. If not, download and install it from [rustup.rs](https://rustup.rs/).
 
 2. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   cd greeting_cli
-   ```
+    ```bash
+    git clone <repository-url>
+    cd greeting_cli
+    ```
 
 3. Build the project:
-   ```bash
-   cargo build --release
-   ```
+    ```bash
+    cargo build --release
+    ```
 
-   This will create an optimized binary in `target/release/greeting_cli`.
+    This will create an optimized binary in `target/release/greeting_cli`.
 
 ## Usage
 
@@ -54,9 +56,13 @@ If no name is provided, the application will display usage instructions.
 ```bash
 $ cargo run Alice
 Hello, Alice 👋
+Welcome to my first rust application that i made by use of Ai
+Thank you for visiting this site?
 
 $ cargo run Bob
 Hello, Bob 👋
+Welcome to my first rust application that i made by use of Ai
+Thank you for visiting this site?
 ```
 
 ## Development
@@ -66,14 +72,14 @@ To contribute or modify the code:
 1. Clone the repository as described above.
 2. Make your changes to `src/main.rs`.
 3. Test your changes:
-   ```bash
-   cargo run <test_name>
-   ```
+    ```bash
+    cargo run <test_name>
+    ```
 4. Build and run tests (if any):
-   ```bash
-   cargo build
-   cargo test
-   ```
+    ```bash
+    cargo build
+    cargo test
+    ```
 
 ## Project Structure
 
