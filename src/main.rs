@@ -15,6 +15,6 @@ fn main() {
 
     // Print greeting
     println!("Hello, {} 👋", name);
-    println!("Welcome to my first rust application that i made by use of Ai");
-    println!("Thank you for visiting this site?");
+    println!("Welcome to my first rust application that I made by use of Ai.");
+    println!("Thank you for visiting this site!.");
 }

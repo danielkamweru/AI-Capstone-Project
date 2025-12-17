@@ -1,0 +1,114 @@
+Learning Rust by Building a CLI Greeting Tool using Ai prompts
+
+1. Title & Objective
+Title:
+ Prompt-Powered Kickstart: Learning Rust by Building a CLI Greeting Tool
+Chosen Technology:
+ Rust (Systems Programming Language)
+Why I Chose It:
+ I chose Rust because it is a modern, high-performance systems language with strong guarantees around memory safety. Rust is widely used for building command-line tools, making it a perfect fit for a beginner-friendly CLI project. Choosing Rust also satisfied the requirement to use a language outside of Python, Java, and JavaScript.
+End Goal:
+ The goal of this project is to build a simple command-line application that accepts a user’s name as an argument and prints a personalized greeting.
+
+2. Quick Summary of the Technology
+What is it?
+ Rust is a statically typed, compiled programming language focused on safety, speed, and concurrency. It prevents common bugs such as null pointer dereferencing and data races at compile time.
+Where is it used?
+Command-line tools (e.g., ripgrep)
+
+
+Backend services
+
+
+WebAssembly applications
+
+
+Operating system components
+
+
+One Real-World Example:
+ The ripgrep search tool, used by developers for fast text searching, is written in Rust.
+
+3. System Requirements
+Requirement
+Details
+Command to Verify
+Operating System
+Linux / macOS / Windows
+N/A
+Language
+Rust (2021 edition)
+rustc --version
+Build Tool
+Cargo
+cargo --version
+Editor
+VS Code or any text editor
+N/A
+
+
+4. Minimal Working Example
+Functionality:
+ The CLI reads a name from the command line and prints a greeting. Use any name that you wish
+Command:
+cargo run Daniel
+
+Expected Output:
+Hello, Daniel 👋
+Welcome to my first rust application that I made using Ai.
+Thank you for visiting the site!
+
+
+5. AI Prompts Used (Learning Reflections)
+Prompt Used
+Purpose & Strategy
+Learning Outcome
+“Explain Rust in simple terms for a beginner coming from Python.”
+Conceptual grounding
+Helped me understand ownership, borrowing, and why Rust is memory-safe.
+“Show me how to build a simple Rust CLI app that reads command-line arguments.”
+Scaffolding
+Provided the foundation using std::env::args() and a runnable example.
+“Why am I getting command not found: cargo?”
+Debugging environment issues
+Identified missing Rust installation and introduced rustup.
+“How do I fix could not find Cargo.toml?”
+Build troubleshooting
+Explained Cargo’s strict file naming and case sensitivity.
+“Explain what Cargo.toml is used for in Rust.”
+Tooling understanding
+Clarified Cargo.toml’s role in dependency and project management.
+“Why is my manifest missing a [package] section?”
+Error resolution
+Helped restore a broken Cargo.toml file so the project could compile.
+
+
+6. Common Issues & Fixes
+Issue
+Error
+Resolution
+Rust not installed
+command not found: rustc
+Installed Rust using rustup.
+Cargo not detected
+command not found: cargo
+Loaded environment using source ~/.cargo/env.
+Missing Cargo.toml
+could not find Cargo.toml
+Renamed cargo.toml to Cargo.toml.
+Invalid manifest
+missing [package]
+Restored required Cargo.toml structure.
+
+
+7. References
+Rust Official Documentation: https://doc.rust-lang.org
+
+
+The Rust Book: https://doc.rust-lang.org/book
+
+
+Cargo Guide: https://doc.rust-lang.org/cargo
+
+
+Moringa AI Platform: https://ai.moringaschool.com
